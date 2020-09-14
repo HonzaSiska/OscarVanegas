@@ -1,0 +1,98 @@
+@media only screen and (max-width: 1300px) {
+
+    .inputFieldLogin{
+        min-width: 90%;
+        
+    }
+    #login_btn{
+        min-width: 90%;
+        
+        
+    }
+    .form_wraper {
+        min-width: 200px;
+        width: 90%;
+    }
+    .formulario{
+        width: 100%;
+        margin:auto;
+        padding: 0;
+    }
+    .formulario input, select,option {
+        display: block;
+        width:70%;
+        margin: 5px auto;
+        margin-top: 10px;
+        
+    }
+    #agregar_usuario{
+        margin:none;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+}
+
+
+@media only screen and (max-width: 970px) {
+
+    .header_block{
+        display: block;
+        text-align: center;
+        padding-left: 0;
+        margin: auto;
+    }
+    .header_block h3:first-child{
+        
+        border-top: 1px solid white;
+        
+    }
+    .header_block h3{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 5px;
+        padding: 15px;
+        
+    }
+    .header_block a{
+        border:none;
+    }
+    .header_block h3,li{
+        border-top: 1px solid rgb(131, 130, 130);
+        
+    }
+    .header_block ul li{
+        padding: 15px;
+        
+    }
+    #header_content_right{
+        width: 100%;
+        
+    }
+    
+    .headerTitle {
+        border: none;
+        width: 100%;
+        
+    }
+    #nav_bar_admin_wrapper li{
+        text-align: center;
+        display: block;
+    }
+    
+}
+@media only screen and (max-width: 600px) {
+
+    #tabla tbody tr td {
+        padding: 0 10px;
+        font-size: 12px;
+    }
+    #tabla thead tr th {
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+
+
+
+}
