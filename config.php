@@ -1,7 +1,7 @@
 <?php  
  try {
-    $conexion = new PDO('mysql:host=mysql.muj.cloud;dbname=oscar_vanegas_XHGA5','siskajan@h_XHGA5','7611074845');
-    // $conexion = new PDO('mysql:host=localhost;dbname=oscar_vanegas','root','');
+    $conexion = new PDO('mysql:host=mysql.muj.cloud;dbname=oscar_vanegas_XHGA5','siskajan@h_XHGA5','heslo');
+    //$conexion = new PDO('mysql:host=localhost;dbname=oscar_vanegas','root','');
     // //echo'conected';
 
 } catch (PDOExeptions $e) {
